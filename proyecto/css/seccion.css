@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(228, 226, 226);
+}
+.contenido{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.contenido div{
+    border-left: 10px solid cadetblue;
+    background-color: white;
+     width: 50rem;
+    height: 12rem;
+    margin-left: 4.5rem;
+    margin-top: 2rem;
+}
+h2{
+    font-size: 35px;
+    color: cadetblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 2rem;
+}
+p{
+    margin: 10px;
+    font-size: 22px;
+    margin-left: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
